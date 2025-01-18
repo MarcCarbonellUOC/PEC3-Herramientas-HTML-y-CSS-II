@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss" />
+    <!-- do not remove this line! -->
+    <title>JsSI - Participantes</title>
+  </head>
+  <body
+    class="[@supports(display:grid)]:block w-full font-geist text-white bg-bgBlack m-0"
+  >
+    <div class="min-h-dvh grid grid-rows-[auto_1fr_auto]">
+      <header class="h-[118px] relative z-[2]">
+        <include src="./views/header.html"></include>
+        <nav class="bg-bgGray">
+          <ol
+            class="font-sansserif flex items-center justify-start gap-2 pt-2 pb-2 ps-[4.5rem] pe-16"
+          >
+            <li>
+              <a class="text-secondary hover:text-green-500" href="./index.html"
+                >Inicio</a
+              >
+            </li>
+            <li>></li>
+            <li aria-current="page">Participantes</li>
+          </ol>
+        </nav>
+      </header>
+      <div
+        class="max-w-full px-[1.5rem] py-0 pr-[0.75rem] pl-[0.75rem] mx-auto sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1320px] w-full h-auto flex flex-wrap items-center justify-center mt-[2.75rem] mb-[5rem] flex-col gap-[3rem]"
+      >
+        <h1
+          class="font-geistBold leading-[1.2] text-[calc(1.375rem+1.5vw)] xl:text-[2.5rem]"
+        >
+          Participantes
+        </h1>
+        <div
+          class="w-full h-auto flex flex-wrap items-center justify-center gap-[3rem] @container"
+        >
+          <div class="card">
+            <include src="./views/card-picture.html"></include>
+            <div
+              class="p-[1rem] h-[130px] flex flex-col gap-[0.5rem] items-center justify-center @[768px]:h-[140px] @[1012px]:h-[150px]"
+            >
+              <p
+                class="font-sansserif text-xl @[768px]:text-2xl @[1012px]:text-[1.75rem]"
+              >
+                Dr. Alejandra Cruz
+              </p>
+              <p
+                class="font-sansserif text-center text-[0.9rem] @[768px]:text-[0.95rem] @[1012px]:text-base"
+              >
+                Experta en ciberseguridad y docente apasionada por la protección
+                de datos.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <include src="./views/card-picture.html"></include>
+            <div
+              class="p-[1rem] h-[130px] flex flex-col gap-[0.5rem] items-center justify-center @[768px]:h-[140px] @[1012px]:h-[150px]"
+            >
+              <p
+                class="font-sansserif text-xl @[768px]:text-2xl @[1012px]:text-[1.75rem]"
+              >
+                Ing. Manuel Pérez
+              </p>
+              <p
+                class="font-sansserif text-center text-[0.9rem] @[768px]:text-[0.95rem] @[1012px]:text-base"
+              >
+                Consultor especializado en seguridad de redes corporativas.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <include src="./views/card-picture.html"></include>
+            <div
+              class="p-[1rem] h-[130px] flex flex-col gap-[0.5rem] items-center justify-center @[768px]:h-[140px] @[1012px]:h-[150px]"
+            >
+              <p
+                class="font-sansserif text-xl @[768px]:text-2xl @[1012px]:text-[1.75rem]"
+              >
+                Sofía Ramírez
+              </p>
+              <p
+                class="font-sansserif text-center text-[0.9rem] @[768px]:text-[0.95rem] @[1012px]:text-base"
+              >
+                Innovadora en estrategias de defensa contra ataques de phishing.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <include src="./views/card-picture.html"></include>
+            <div
+              class="p-[1rem] h-[130px] flex flex-col gap-[0.5rem] items-center justify-center @[768px]:h-[140px] @[1012px]:h-[150px]"
+            >
+              <p
+                class="font-sansserif text-xl @[768px]:text-2xl @[1012px]:text-[1.75rem]"
+              >
+                Juan Torres
+              </p>
+              <p
+                class="font-sansserif text-center text-[0.9rem] @[768px]:text-[0.95rem] @[1012px]:text-base"
+              >
+                Hacker ético con más de una década de experiencia en auditorías
+                de sistemas.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <include src="./views/card-picture.html"></include>
+            <div
+              class="p-[1rem] h-[130px] flex flex-col gap-[0.5rem] items-center justify-center @[768px]:h-[140px] @[1012px]:h-[150px]"
+            >
+              <p
+                class="font-sansserif text-xl @[768px]:text-2xl @[1012px]:text-[1.75rem]"
+              >
+                Andrea López
+              </p>
+              <p
+                class="font-sansserif text-center text-[0.9rem] @[768px]:text-[0.95rem] @[1012px]:text-base"
+              >
+                Investigadora de inteligencia artificial aplicada a
+                ciberseguridad.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <include src="./views/card-picture.html"></include>
+            <div
+              class="p-[1rem] h-[130px] flex flex-col gap-[0.5rem] items-center justify-center @[768px]:h-[140px] @[1012px]:h-[150px]"
+            >
+              <p
+                class="font-sansserif text-xl @[768px]:text-2xl @[1012px]:text-[1.75rem]"
+              >
+                Dr. Luis González
+              </p>
+              <p
+                class="font-sansserif text-center text-[0.9rem] @[768px]:text-[0.95rem] @[1012px]:text-base"
+              >
+                Criptógrafo experto en algoritmos de encriptación avanzados.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <include src="./views/footer.html"></include>
+    </div>
+    <script type="module" src="./assets/scripts/main.js"></script>
+    <!-- do not remove this line! -->
+  </body>
+</html>

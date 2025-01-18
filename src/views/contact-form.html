@@ -1,0 +1,27 @@
+<form
+  class="w-[65%] @[600px]/contact:w-[55%] @[900px]/contact:w-[45%] @[1100px]/contact:w-[40%] font-sansserif flex flex-col gap-4"
+  method="post"
+  name="contact"
+  netlify
+>
+  <div class="mb-3">
+    <label for="name" class="mb-2">Nombre</label>
+    <input type="text" class="input-field" name="name" required />
+  </div>
+  <div class="mb-3">
+    <label for="email">Correo electrónico</label>
+    <input type="email" class="input-field" name="email" required />
+  </div>
+  <div class="mb-3">
+    <label for="message" class="mb-2">Mensaje</label>
+    <textarea class="input-field" name="message" rows="3" required></textarea>
+  </div>
+  <p>
+    <button
+      type="submit"
+      class="w-full py-[6px] px-3 font-geist rounded-md bg-secondary hover:bg-green-500"
+    >
+      Enviar
+    </button>
+  </p>
+</form>

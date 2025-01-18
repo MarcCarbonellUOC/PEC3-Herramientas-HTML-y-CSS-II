@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss" />
+    <!-- do not remove this line! -->
+    <title>JsSI - Contacto</title>
+  </head>
+  <body
+    class="[@supports(display:grid)]:block w-full font-geist text-white bg-bgBlack m-0"
+  >
+    <div class="min-h-dvh grid grid-rows-[auto_1fr_auto]">
+      <header class="h-[118px] relative z-[2]">
+        <include src="./views/header.html"></include>
+        <nav class="bg-bgGray">
+          <ol
+            class="font-sansserif flex items-center justify-start gap-2 py-2 ps-[4.5rem] pe-16"
+          >
+            <li>
+              <a class="text-secondary hover:text-green-500" href="./index.html"
+                >Inicio</a
+              >
+            </li>
+            <li>></li>
+            <li aria-current="page">Contáctanos</li>
+          </ol>
+        </nav>
+      </header>
+      <div
+        class="container mx-auto w-full h-auto flex items-center justify-start mt-11 mb-20 px-3 flex-col gap-12 min-h-screen @container/contact"
+      >
+        <h1
+          class="font-geistBold leading-[1.2] text-[calc(1.375rem+1.5vw)] xl:text-[2.5rem]"
+        >
+          Formulario de contacto
+        </h1>
+        <include src="./views/contact-form.html"></include>
+      </div>
+      <include src="./views/footer.html"></include>
+    </div>
+    <script type="module" src="./assets/scripts/main.js"></script>
+    <!-- do not remove this line! -->
+  </body>
+</html>
